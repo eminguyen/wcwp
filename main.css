@@ -1,0 +1,60 @@
+html body {
+  height: 100vh;
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #11998e, #38ef7d); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #11998e, #38ef7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  font-family: 'Open Sans';
+}
+
+.dropdown-menu {
+    background:transparent !important;
+}
+
+.dropdown:hover  .dropdown-menu {
+    display: block;
+}
+
+.dropdown-toggle::after {
+    display:none !important;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: gray;
+}
+
+/* selected link */
+a:active {
+    color: gray;
+}
+
+.navbar {
+  font-size: 2em;
+}
+
+/* home page */
+
+.intro {
+  color: white;
+  text-align: center;
+  padding-top: 30vh;
+}
+
+.intro h1 {
+  font-size: 5em;
+}
+
+.intro h2 {
+  font-size: 3em;
+}
