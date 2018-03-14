@@ -58,3 +58,14 @@ a:active {
 .intro h2 {
   font-size: 3em;
 }
+
+/* about page */
+
+.about {
+  color: white;
+  margin : 3vh;
+}
+
+.about h2{
+  line-height: 2;
+}
