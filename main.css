@@ -1,10 +1,15 @@
 html body {
   height: 100vh;
-  background: #11998e; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #11998e, #38ef7d); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #11998e, #38ef7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("images/pigbackground.jpg");
+  background-size: cover  !important;
+  background-attachment: fixed;
+  background-position: center !important;
+  background: rgba(56, 239, 125, 0.5); /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, rgba(17, 153, 142, 0.7), rgba(56, 239, 125, 0.9)); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, rgba(220, 227, 91, .7), rgba(69, 182, 73, .9)),
+              url("./images/pigbackground.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
-  font-family: 'Open Sans';
+  font-family: 'Rubik', sans-serif;
 }
 
 .dropdown-menu {
@@ -39,8 +44,21 @@ a:active {
     color: gray;
 }
 
-.navbar {
+.navbar{
   font-size: 2em;
+  position: absolute;
+  margin: 2vw;
+  color: white;
+}
+
+.navbar-toggler {
+  color: white;
+  font-size: 1.2em !important;
+}
+
+.navbar-nav {
+  float: right;
+  text-align: right;
 }
 
 /* home page */
@@ -48,11 +66,14 @@ a:active {
 .intro {
   color: white;
   text-align: center;
-  padding-top: 30vh;
+  padding-top: 20%;
+  font-weight: 700 !important;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .intro h1 {
-  font-size: 5em;
+  font-size: 4em;
 }
 
 .intro h2 {
@@ -68,4 +89,8 @@ a:active {
 
 .about h2{
   line-height: 2;
+}
+
+.dropdown-menu {
+  background: gray;
 }
