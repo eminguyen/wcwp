@@ -1,6 +1,5 @@
 html body {
   height: 100vh;
-  background-image: url("images/pigbackground.jpg");
   background-size: cover  !important;
   background-attachment: fixed;
   background-position: center !important;
@@ -14,6 +13,9 @@ html body {
 
 .dropdown-menu {
     background: rgba(100, 100, 100, 0.3) !important;
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%);
 }
 
 .dropdown:hover  .dropdown-menu {
@@ -44,24 +46,29 @@ a:active {
     color: gray;
 }
 
-.navbar{
+.navbar {
   font-size: 2em;
   position: absolute !important;
   margin: 2vw;
   color: white;
   width: 95%;
-
+  flex-flow: row nowrap!important;
+  align-items: flex-start !important;
 }
 
 .navbar-toggler {
   color: white;
-  font-size: 1.2em !important;
   right:2vw;
 }
 
 .navbar-nav {
   float: right;
-  text-align: right;
+  text-align: center;
+  flex-flow: row nowrap!important;
+}
+
+.nav-item {
+  margin-right: 4vw !important;
 }
 
 .navbar-toggler .top-bar {
@@ -91,12 +98,12 @@ a:active {
 }
 
 .icon-bar {
-	width: 1em;
-	height: .1em;
+	width: 2em;
+	height: .28em;
 	background-color: white;
 	display: block;
 	transition: all 0.2s;
-	margin-top: .2em;
+	margin-top: .28em;
 }
 
 .navbar-toggler {
@@ -109,7 +116,7 @@ a:active {
 .intro {
   color: white;
   text-align: center;
-  padding-top: 20%;
+  padding-top: 35vh;
   font-weight: 700 !important;
   margin-left: 5vw;
   margin-right: 5vw;
@@ -132,8 +139,4 @@ a:active {
 
 .about h2{
   line-height: 2;
-}
-
-.dropdown-menu {
-  background: gray;
 }
