@@ -46,14 +46,17 @@ a:active {
 
 .navbar{
   font-size: 2em;
-  position: absolute;
+  position: absolute !important;
   margin: 2vw;
   color: white;
+  width: 95%;
+
 }
 
 .navbar-toggler {
   color: white;
   font-size: 1.2em !important;
+  right:2vw;
 }
 
 .navbar-nav {
