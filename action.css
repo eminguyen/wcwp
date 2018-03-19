@@ -1,0 +1,38 @@
+.action {
+  padding-top: 20vh;
+  color: rgb(100, 100, 100);
+}
+
+.action a {
+  color: rgb(56, 239, 125);
+}
+
+.action h1 {
+  font-size: 2em !important;
+}
+
+.action h2 {
+  font-size: 1.4em;
+}
+
+.action {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.action img {
+  float: right;
+}
+
+.action iframe {
+  margin-left: 30%;
+}
+
+.action .col-10 {
+  padding-top:4vh;
+  margin: auto;
+  background: white;
+  border-radius: 30px;
+  padding-bottom: 4vh;
+  box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.3);
+}
