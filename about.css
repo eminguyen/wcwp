@@ -1,18 +1,31 @@
 html body {
-  height: auto !important;
-  background: linear-gradient(to bottom, rgb(220, 227, 91), rgb(69, 182, 73)) !important;
+  height: 100vh;
+  background-size: cover  !important;
+  background-attachment: fixed;
+  background-position: center !important;
+  background: rgba(56, 239, 125, 0.5); /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, rgba(220, 227, 91, .7), rgba(69, 182, 73, .9)); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, rgba(220, 227, 91, .7), rgba(69, 182, 73, .9)),
+              url("./images/ucsd.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
+  font-family: 'Rubik', sans-serif;
 }
 
 .about {
-  padding-top: 16vh;
-  color: white;
+  padding-top: 20vh;
+  color: rgb(100, 100, 100);
 }
 
-.about h1 {
-  text-align: center;
+.aboutcol {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-.about .col-8 {
-  margin-left: 2vw;
+.about .col-10 {
+  padding-top:4vh;
+  margin: auto;
+  background: white;
+  border-radius: 30px;
+  padding-bottom: 4vh;
+  box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.3);
 }
