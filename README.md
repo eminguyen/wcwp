@@ -1,10 +1,6 @@
 # Concerned Carnivore
 ![concernedcarnivore](https://user-images.githubusercontent.com/32719891/37754987-e6a06b72-2d60-11e8-8992-91680c257760.png)
-<p>
-  <b>
-  Concerned Carnivore is a hub for informing young people about the health effects of factory farming.
-  </b>
-</p>
+Concerned Carnivore is a hub for informing young people about the health effects of factory farming.
 <br />
 This is a website that puts together weeks of research that I did for my college general education writing class.
 <br />
