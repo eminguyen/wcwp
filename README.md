@@ -3,7 +3,7 @@
 <p>
   <b>
   Concerned Carnivore is a hub for informing young people about the health effects of factory farming.
-  <b>
+  </b>
 </p>
 <br />
 This is a website that puts together weeks of research that I did for my college general education writing class.
